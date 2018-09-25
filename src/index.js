@@ -7,7 +7,7 @@ module.exports = function solveEquation(equation) {
  // if(discr > 0) { // two roots 
     let xOne = Math.round(((b * -1) + Math.sqrt(discr)) / (2 * a) );
     let xTwo = Math.round(((b * -1) - Math.sqrt(discr)) / (2 * a) );
-    return [xOne, xTwo].sort(function(a,b) { return a - b; });
+    return [xOne, xTwo].sort(function(a,b) {return a - b;});
  /* } else if(discr == 0) { // one roots
       let xOne = Math.round(((b * -1) + Math.sqrt(discr)) / (2 * a));
       return [xOne];
